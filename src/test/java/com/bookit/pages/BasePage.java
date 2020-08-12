@@ -35,6 +35,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
             wait.until(ExpectedConditions.presenceOfElementLocated(By.linkText("my")));
             wait.until(ExpectedConditions.elementToBeClickable(my)).click();
             self.click();
-            //fhfh
+
         }
 }
