@@ -9,12 +9,14 @@ import org.junit.runner.RunWith;
     @CucumberOptions(
             glue = "com/bookit/step_definitions",
             features = "src/test/resources/features",
+
+
 strict = true,
             plugin = {
                     "json:target/cucumber.json"
             },
-            tags = "@create2",
-            dryRun = true
+            tags = "@ui",
+            dryRun = false
 
     )
     public class CucumberRunner {

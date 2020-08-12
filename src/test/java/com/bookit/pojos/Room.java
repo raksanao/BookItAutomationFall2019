@@ -21,7 +21,7 @@ public class Room {
         private boolean withTV;
         private boolean withWhiteBoard;
 
-        public Room() {
+        public Room(){
 
         }
 
@@ -110,6 +110,6 @@ public class Room {
                     ", withWhiteBoard=" + withWhiteBoard +
                     '}';
         }
-    }
+      }
 
 
